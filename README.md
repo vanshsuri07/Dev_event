@@ -47,9 +47,7 @@ Make sure you have the following installed on your machine:
 
    ```env
    # Cloudinary
-   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-   CLOUDINARY_API_KEY=your_cloudinary_api_key
-   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   CLOUDINARY_URL=your_cloudinary_url
 
    # MongoDB
    MONGODB_URI=your_mongodb_connection_string
@@ -57,6 +55,9 @@ Make sure you have the following installed on your machine:
    # PostHog
    NEXT_PUBLIC_POSTHOG_KEY=your_posthog_key
    NEXT_PUBLIC_POSTHOG_HOST=your_posthog_host
+
+   # Base Url
+   NEXT_PUBLIC_BASE_URL=http://localhost:3000
    ```
 
 ### Running the Application
